@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/colorAccent"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_merchant_image"
+        android:background="@drawable/yummy_logo"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="legalName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/list_item_merchant_legal_name"
+            android:layout_weight="1"
+            android:textSize="14sp"	/>
+
+        <TextView
+            android:text="merchantCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/list_item_merchant_merchantCategory"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="contactPoint"
+                android:id="@+id/list_item_merchant_contactPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="14sp"	/>
+
+            <TextView
+                android:text="aggregateRating"
+                android:id="@+id/list_item_merchant_aggregateRating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="bottom|right"
+                tools:text="0"	/>
+
+            <ImageView
+                app:srcCompat="@drawable/star"
+                android:id="@+id/list_item_merchant_rating_image"
+                android:layout_height="wrap_content"
+                android:layout_width="10dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
