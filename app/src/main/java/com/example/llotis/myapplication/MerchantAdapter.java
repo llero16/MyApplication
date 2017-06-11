@@ -9,12 +9,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 /**
- * Created by user on 27/1/2017.
+ * Created by llotis on 10/5/2017.
  */
 
 public class MerchantAdapter extends ArrayAdapter<Merchant> {

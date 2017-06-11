@@ -3,6 +3,10 @@ package com.example.llotis.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * Created by llotis on 10/5/2017.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
